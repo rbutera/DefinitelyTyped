@@ -67,7 +67,7 @@ export interface UserData<A = AppMetadata, U=UserMetadata> {
 }
 
 export interface CreateUserData extends UserData {
-  connection: string;
+  connection?: string;
 }
 
 export interface UpdateUserData extends UserData {
